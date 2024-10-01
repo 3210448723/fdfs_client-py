@@ -30,8 +30,9 @@ sdict = {
         'License :: GPLV3',
         'Operating System :: OS Independent',
         'Programming Language :: Python'],
-    'ext_modules': [Extension('fdfs_client.sendfile',
-                              sources=['fdfs_client/sendfilemodule.c'])],
+# https://blog.csdn.net/weixin_44689630/article/details/101226233
+#    'ext_modules': [Extension('fdfs_client.sendfile',
+#                              sources=['fdfs_client/sendfilemodule.c'])],
 }
 
 setup(**sdict)
